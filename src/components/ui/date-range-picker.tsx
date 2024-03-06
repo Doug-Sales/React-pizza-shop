@@ -59,6 +59,7 @@ export function DateRangePicker({
             selected={date}
             onSelect={onDateChange}
             numberOfMonths={2}
+            max={7}
           />
         </PopoverContent>
       </Popover>

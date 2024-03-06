@@ -30,7 +30,7 @@ export function PaginationLinks({
 
       <div className="flex items-center gap-6 lg:gap-8">
         <div>
-          Páginas {pageIndex + 1} de {pages}
+          Página {pageIndex + 1} de {pages}
         </div>
         <div className="flex items-center gap-2">
           <Button
